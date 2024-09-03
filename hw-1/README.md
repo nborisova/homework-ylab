@@ -10,3 +10,8 @@ git clone git@github.com:nborisova/homework-ylab.git
 ```bash
 npm i
 ```
+
+3. Запустить проект на локальном сервере с помощью команды
+```bash
+gulp
+```
