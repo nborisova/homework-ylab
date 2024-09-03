@@ -1,1 +1,5 @@
-# first-homework-ylab
+# homework-ylab
+
+## Домашние работы
+
+- [Домашняя работа №1](hw-1/)

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ДЗ №1 Форма аутентификации </title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="icon" href="images/favicon.ico" sizes="any" />
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="images/mobile-icon.png" />
+    <link rel="stylesheet" href="/bundle.css" />
+  </head>
+  <body class="page">
+    <div class="auth-form-container">
+      <h2 class="auth-form-container__header">Добро пожаловать!</h2>
+      <div class="auth-form-container__error-message" id="error-message"></div>
+      <form class="auth-form-container__form" id="form">
+        <label for="email">
+          <input class="auth-form-container__label" type="email" id="email" name="email" placeholder="Почта"  maxLength="50" minLength="2" required>
+        </label>
+        <label for="password">
+          <input class="auth-form-container__label" type="password" id="password" name="password" placeholder="Пароль"  maxLength="100" minLength="2" required>
+        </label>
+        <button class="auth-form-container__submit-btn" type="submit">Войти</button>
+      </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

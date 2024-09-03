@@ -1,0 +1,51 @@
+/* Основные стили проекта */
+
+.page {
+  block-size: 100vh;
+  font-family: 'IBM Plex mono', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  background-color: #b55489;
+  background-image: url(./images/background-img.jpg);
+  background-size: 100% 100%;
+}
+
+.auth-form-container {
+  background-color: antiquewhite;
+  border-radius: 5%;
+  min-block-size: 30%;
+  padding-inline: 15px;
+  padding-block-start: 10px;
+  box-shadow: 1px 1px 7px saddlebrown;
+}
+
+.auth-form-container__header {
+  font-size: 28px;
+  font-weight: 500;
+  padding-block-end: 30px;
+}
+
+.auth-form-container__error-message {
+  font-size: 14px;
+  color: firebrick;
+}
+
+.auth-form-container__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.auth-form-container__label {
+  min-inline-size: 100%;
+}
+
+.auth-form-container__submit-btn {
+  cursor: pointer;
+}
+
+.auth-form-container__submit-btn:hover {
+  opacity: 0.7;
+}
